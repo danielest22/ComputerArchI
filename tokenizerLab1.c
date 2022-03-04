@@ -90,18 +90,18 @@ char** tokenizer(char str[],int tokens,char delim){
 
 
 
-int main(){
-   char user_string[40] = {'\0'};
-   printf("Enter a String $");
-   fgets(user_string,40,stdin);
-   char user_delim;
-   printf("Enter a delimiter$");
-   scanf("%c",&user_delim);
-   char *start = &user_string[0];
-   int string_length = get_length(user_string,user_delim);
-   int tokens = token_count(user_string,user_delim);
-   char** token_double = tokenizer(user_string,tokens,user_delim);
-   print_tokenizer(user_string,token_double,tokens,start,user_delim); 
-   return 0;
-} 
+//int main(){
+  // char user_string[40] = {'\0'};
+  // printf("Enter a String $");
+  // fgets(user_string,40,stdin);
+   //char user_delim;
+  // printf("Enter a delimiter$");
+  // scanf("%c",&user_delim);
+  // char *start = &user_string[0];
+  // int string_length = get_length(user_string,user_delim);
+  // int tokens = token_count(user_string,user_delim);
+  // char** token_double = tokenizer(user_string,tokens,user_delim);
+   //print_tokenizer(user_string,token_double,tokens,start,user_delim); 
+  // return 0;
+//} 
 
